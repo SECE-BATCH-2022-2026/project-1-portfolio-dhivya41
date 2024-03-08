@@ -1,0 +1,243 @@
+body{
+    background-color: black;
+}
+#header{
+    width: 100%;
+}
+.navbar{
+    background-color: cadetblue;
+    padding-left: 15px;
+    padding-right:15px;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;  
+     
+}
+.container a{
+    text-decoration: none;
+}
+li{
+list-style:none; display: inline;
+}
+li a{
+    color: aliceblue;margin-right:70px;font-size:30px;
+}
+#sticky{
+    position: sticky;
+    top:0px;
+
+
+}
+a[href="#in"]:hover{
+    color:red
+    ;
+}
+a[href="#ab"]:hover{
+    color:red
+    ;
+}
+a[href="#ed"]:hover{
+    color:red
+    ;
+}
+a[href="#Pro"]:hover{
+    color:red
+    ;
+}
+a[href="#tec"]:hover{
+    color:red
+    ;
+}
+a[href="#cont"]:hover{
+    color:red
+    ;
+}
+.intro {
+    font-size:40px;
+    padding-left:150px;   
+    width:30%;
+    height:380px;
+       
+ }
+ .profile{   
+     justify-content:center;
+     align-items: center;
+     flex-direction: column;     
+     font-size: 4.25rem;
+     gap: 5rem;
+     padding-left:90px;
+     padding-right:80px;
+     padding-top:90px;
+     width: 10px;  
+    
+ }
+.image{
+    margin-bottom:200px ;
+    border-radius:100%;
+    height: 350px;
+    width: 350px ;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    margin-left: 200px;   
+    box-shadow: 1px 1px 20px 3px aqua;      
+}
+ .con{
+    display: flex;    
+ }
+ .about{
+    text-align: center;
+    justify-content: center;
+    font-size:35px;
+    width: 600px;
+    margin-left: 550px;    
+   
+       
+}
+.about h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right:70px;
+    margin-left:150px;
+  
+}
+.about p{
+    box-shadow: 1px 1px 20px 3px aqua;
+    width:750px
+} 
+.edu{
+    text-align: center;
+    font-size: 35px;
+    margin-left:100px;
+}
+.edu h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right:150px;
+}
+
+.edu table,th,td{
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 500px;
+    border: 1px double   white    
+     
+}
+.edu table,th,td:hover{
+    border-color: aquamarine;
+}
+.edu table{
+    box-shadow: 1px 1px 20px 3px aqua;
+    width:750px
+}
+.projects{
+    text-align: center;
+    font-size: 35px; 
+    width: 70%;
+    margin-left:300px;
+    display: flex;
+    column-gap:35px; 
+      
+}
+
+.proj1{
+    box-shadow: 2px 2px 20px 3px aqua;
+   border-radius: 5%;
+    width:150%;
+}
+.proj2{
+    box-shadow: 2px 2px 20px 3px aqua;
+    border-radius: 5%;
+    width:150%;
+}
+.proj3{
+    box-shadow: 2px 2px 20px 3px aqua;
+    border-radius: 5%;
+    width:150%;
+}
+.proj1:hover{
+    transform: scale(1.2);
+    }
+.proj2:hover{
+        transform: scale(1.2);
+     }
+.proj3:hover{
+transform: scale(1.2);
+  }
+
+.ps{
+    align-items: center;
+    margin-left: 800px;
+    font-size: 35px;
+}
+.tech{
+    align-items: center;
+    margin-left: 800px;
+    font-size: 35px; 
+
+}
+.techskill{
+    text-align: center;
+    font-size: 35px; 
+    width: 70%;
+    margin-left:700px;
+    display: flex;
+    column-gap:50px;       
+}
+
+.imag1{
+    box-shadow: 2px 2px 20px 3px brown;
+
+}
+.imag2{
+    box-shadow: 2px 2px 20px 3px #0793ca;
+}
+.imag3{
+    box-shadow: 2px 2px 20px 3px #448EE4;
+}
+.imag4{
+    box-shadow: 2px 2px 20px 3px white;
+}
+.imag5{
+    box-shadow: 2px 2px 20px 3px orange;
+}
+.contact{
+    text-align: center;
+    font-size: 35px;
+    font-style: oblique;
+    
+}
+
+.edim{
+    display: flex;  
+    align-items: center;
+    column-gap:3px;
+   
+}
+.edimage{
+    margin-left:200px;
+    box-shadow: 1px 1px 20px 3px aqua;
+    
+}
+.codplat{
+    text-align: center;
+    font-size: 35px;
+    font-style: oblique;
+    margin-left: 30px;
+  
+}
+.lineitems{
+    display: flex;
+    text-align: center;
+    column-gap:50px;
+    margin-left:500px;
+
+}
+.lineitem:hover{
+    transform: scale(1.2);
+}
+.lineitem{
+    box-shadow: 1px 1px 20px 1px aqua;
+}
+
+
